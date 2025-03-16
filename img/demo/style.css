@@ -1,0 +1,10 @@
+body{
+background-color: rgb(17, 255, 0);
+}
+.main-container{
+background-color: red;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
