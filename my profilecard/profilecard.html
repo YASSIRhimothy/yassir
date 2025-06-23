@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hi! I'm Yassir 🎮</title>
+    <link rel="stylesheet" href="profilecard.css" />
+  </head>
+  <body>
+    <h1>Hi! I'm <span style="color: deeppink">Yassir 🎮</span></h1>
+    <strong>I'm 10 years old and I love coding!</strong>
+    <p><em>"Code makes cool stuff!"</em></p>
+
+    <div class="section-box">
+      <h2>My Fun Facts 🧠</h2>
+      <ul>
+        <li>I can code games in Scratch!</li>
+        <li>I love playing video games with my friends. 🎮🕹️</li>
+        <li>My favorite color is purple.</li>
+      </ul>
+    </div>
+
+    <div class="section-box">
+      <h2>My Favorite Things 💜</h2>
+      <ul>
+        <li>Pizza 🍕</li>
+        <li>Roblox 🕹️</li>
+        <li>Cats 🐱</li>
+      </ul>
+    </div>
+
+    <div class="section-box">
+      <h2>My Skills 🧑‍💻</h2>
+      <ul>
+        <li>Coding in Scratch</li>
+        <li>Basic HTML & CSS</li>
+      </ul>
+    </div>
+
+    <div class="section-box">
+      <h2>My Goals 🎯</h2>
+      <ul>
+        <li>Learn more about coding!</li>
+        <li>Create my own video game.</li>
+        <li>Make a website about my favorite games.</li>
+      </ul>
+    </div>
+    <div class="section-box">
+      <h2>My Dream Car 🚗</h2>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Model</th>
+          <th>Engine size</th>
+          <th>Year</th>
+          <th>horse power</th>
+        </tr>
+        <tr>
+          <td>Ford</td>
+          <td>Mustang</td>
+          <td>5.0L</td>
+          <td>2020</td>
+          <td>315 horsepower</td>
+        </tr>
+        <tr>
+          <td>Chevrolet</td>
+          <td>Camaro</td>
+          <td>6.2L</td>
+          <td>2021</td>
+          <td>455 horsepower</td>
+        </tr>
+        <tr>
+          <td>Dodge</td>
+          <td>Challenger</td>
+          <td>6.4L</td>
+          <td>2022</td>
+          <td>485 horsepower</td>
+        </tr>
+        <tr>
+          <td>BMW</td>
+          <td>M3</td>
+          <td>3.0L</td>
+          <td>2021</td>
+          <td>473 horsepower</td>
+        </tr>
+        <tr>
+          <td>Mercedes-Benz</td>
+          <td>C-Class</td>
+          <td>2.0L</td>
+          <td>2020</td>
+          <td>255 horsepower</td>
+        </tr>
+        <tr>
+          <td>Audi</td>
+          <td>A4</td>
+          <td>2.0L</td>
+          <td>2021</td>
+          <td>201 horsepower</td>
+        </tr>
+      </table>
+    </div>
+    <div class="section-box">
+      <h2>My Favorite Quote 💬</h2>
+        <ul>
+        <li>You don't hear the tree grow. But you hear it fall. - Yassir</li>
+      </ul>
+    </div>
+<div class="section contact-form">
+<h2><span style="color:black">Contact Me 📧</span></h2>
+<form onsubmit="sendToWhatsApp(); return false;" action="#" method="post">
+    <label for="name"><span style="color:black">your name</span> Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="number"><span style="color:black">Your phone number</span>:</label><br>
+    <input type="text" id="number" name="number" required><br><br>
+
+    <label for="message"><span style="color:black">Message</span>:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+    <button type="submit">Send</button>
+    <script>
+  function sendToWhatsApp() {
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("message").value;
+    let phone = "254783665535"; // your number
+    let url = `https://wa.me/${phone}?text=Hi, my name is ${name}. ${message}`;
+    window.open(url, "_blank");
+  }
+</script>
+</form>
+</div>
+   
+    <p>
+      <strong>Click here:</strong>
+      <a href="https://www.youtube.com/" target="_blank"
+        >My favorite YouTube!</a>
+      
+    </p>
+    
+    
+          
+     
+   
+      
+  </body>
+</html>
