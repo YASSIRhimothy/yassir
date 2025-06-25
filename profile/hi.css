@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(ellipse at center, #0b0f1a 0%, #05050a 100%);
+  color: #00bfff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+header {
+  background: #000;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px #00bfff;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #00bfff;
+  text-shadow: 0 0 15px #00bfff;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #aaa;
+}
+
+.hero-img img {
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00bfff;
+}
+
+.section {
+  margin: 30px 20px;
+  padding: 20px;
+  background: rgba(0, 0, 30, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00bfff50;
+}
+
+.section h2 {
+  color: #ffffff;
+  text-shadow: 0 0 8px #00bfff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  background: #001133;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00bfff33;
+}
+
+footer {
+  background: #000;
+  padding: 20px;
+  color: #444;
+  font-size: 0.9em;
+  border-top: 2px solid #00bfff;
+}
+.hero-img {
+    margin: 20px 0;
+    border-radius: 50%;
+}
