@@ -1,0 +1,109 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  background: #fff8f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #ffcc70;
+  padding: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.header {
+  text-align: center;
+  background-color: #ff9966;
+  padding: 2rem;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pet-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border: 4px solid #ffa07a;
+}
+
+.fun-facts {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pet-info {
+  background-color: #ffe5b4;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.skill-card {
+  background-color: #fff3e0;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.toy-card {
+  background-color: #ffe0cc;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.toy-card:hover {
+  background-color: #ffb38a;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.footer {
+  text-align: center;
+  background-color: #ffcc70;
+  padding: 1rem;
+  border-top: 2px solid #ff9966;
+  margin-top: 2rem;
+}

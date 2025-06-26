@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Fluffy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header class="header">
+    <h1>Contact Fluffy</h1>
+    <p>Reach out to Fluffy’s fan team 🐾</p>
+  </header>
+
+  <main class="container" style="grid-template-columns: 1fr;">
+    <section class="pet-info">
+      <p>You can send a message to Fluffy's team using the form below:</p>
+      <form class="contact-form">
+        <label>Name:<br>
+          <input type="text" name="name" required />
+        </label><br><br>
+
+        <label>Email:<br>
+          <input type="email" name="email" required />
+        </label><br><br>
+
+        <label>Message:<br>
+          <textarea name="message" rows="5" required></textarea>
+        </label><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <script>
+
+   function sendToWhatsApp() {
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("message").value;
+    let phone = "254783665535"; // your number
+    let url = `https://wa.me/${phone}?text=Hi, my name is ${name}. ${message}`;
+    window.open(url, "_blank");
+  }
+
+
+</script>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Yassir Mohamed – June 26, 2025</p>
+  </footer>
+</body>
+</html>
